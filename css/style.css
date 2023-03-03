@@ -1,3 +1,21 @@
+@font-face {
+    font-family: "Bogart";
+    src: url(../fonts/BOGARTREGULAR.TTF);
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "DM Sans";
+    src: url("../fonts/DMSans-Regular.ttf");
+}
+
 .main-sec{
     height: 100% !important;
     width: 100% !important;
@@ -64,13 +82,13 @@
 .sec-head{
     font-size:3.5rem;
     font-family: "Bogart";
-    color:white;
+    color:#dedcd7;
 }
 
 .sec-text{
     font-family: "Montserrat";
     font-size: large;
-    color:white;
+    color:#dedcd7;
 }
 .sec-text-special{
     font-weight: bold;
@@ -157,7 +175,7 @@
 }
 
 .moneybox{
-    background-color: white;
+    background-color: #edf0f2;
     color: black;
     height:100%;
     box-sizing: border-box;
@@ -174,7 +192,7 @@
 }
 
 .rounded-but{
-    background-color: rgb(63, 63, 63);
+    background-color: #242222;
     color:white;
     border-radius: 30px;
     width:45%;
@@ -197,15 +215,15 @@
 
 .rounded-det{
     display: block;
-    margin:15px;
+    margin:20px;
     padding:20px;
     padding-left:40px !important;
-    width: 50% !important;
-    height:25%;
+    width: 45% !important;
+    height:30%;
     text-align: left;
-    background-color: rgb(70, 70, 70);
+    background-color: #242222;
     color: white;
-    border-radius: 40px;
+    border-radius: 60px;
 }
 
 @media only screen and (max-width : 992px) {
@@ -221,6 +239,7 @@
 .finaltitle{
     font-family: "Bogart";
     font-size: 6.5rem;
+    color:black;
 }
 @media only screen and (max-width : 992px) {
     .finaltitle{
@@ -239,10 +258,10 @@
 }
 .iconsz a{
     text-decoration: none;
-    color:#232323;
+    color:#242222;
     margin-left:20px;
     padding:10px;
-    border: 1.5px solid #000;
+    border: 1.5px solid #242222;
     border-radius: 50%;
     width: 58px;
     height: 58px;
@@ -262,8 +281,16 @@
 
 .captiontext{
     font-size: xx-large;
-    background-color: rgb(179, 179, 179);
+    background-color: #a6a6a6;
     padding:40px;
     margin:0 !important;
     font-weight: bold;
+    color:#242222;
+}
+
+.oddtext{
+    color:black;
+    text-align: right;
+    font-size: x-large;
+    font-family: "DM Sans";
 }
