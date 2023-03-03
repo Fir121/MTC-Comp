@@ -42,7 +42,7 @@
 
 .main-heading{
     font-family: "Bogart";
-    font-size:15rem;
+    font-size:10rem;
     hyphens:auto;
     padding-left: 5%;
     padding-right: 5%;
@@ -80,7 +80,7 @@
 }
 
 .sec-head{
-    font-size:5.25rem;
+    font-size:3.5rem;
     font-family: "Bogart";
     color:#dedcd7;
 }
@@ -127,7 +127,7 @@
 
 .ter-title{
     font-family: "Bogart";
-    font-size: 7.5rem;
+    font-size: 5rem;
     color:white;
 }
 @media only screen and (max-width : 992px) {
@@ -158,6 +158,13 @@
     background-color: #dedcd7;
     margin-top: 30px;
     margin-bottom: 20px;
+}
+
+.page4-bg{
+    background-color: #232323;
+    background-image: url("../images/CounterfeitCoder_img5.png");
+    background-size: cover;
+    color:white;
 }
 
 .quad-title{
@@ -248,8 +255,7 @@
 
 .finaltitle{
     font-family: "Bogart";
-    font-size: 10rem;
-    line-height:80%;
+    font-size: 6.5rem;
     color:black;
 }
 @media only screen and (max-width : 992px) {
@@ -313,8 +319,4 @@
 
 .sec-header{
     font-size: x-large;
-}
-
-.termstext{
-    font-size: large;
 }
