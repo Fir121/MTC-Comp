@@ -9,6 +9,12 @@
     overflow: hidden;
 }
 
+@media only screen and (max-width : 992px) {
+    .pdf-page{
+        height: fit-content;
+    }
+}
+
 .text-main{
     color:#c1ff72;
     text-align: center;
@@ -19,10 +25,18 @@
 .main-heading{
     font-family: "Bogart";
     font-size:10rem;
+    hyphens:auto;
     padding-left: 5%;
     padding-right: 5%;
     line-height: normal;
 }
+
+@media only screen and (max-width : 992px) {
+    .main-heading{
+        font-size: 5rem;
+    }
+}
+
 
 .main-bg{
     background-image: url("../images/CounterfeitCoders_img1.jpg");
@@ -34,6 +48,12 @@
 .main-subtext{
     font-family: "Montserrat";
     font-size: 1.5rem;
+}
+
+@media only screen and (max-width : 992px) {
+    .main-subtext{
+        font-size: 1rem;
+    }
 }
 
 .main-info{
@@ -60,11 +80,6 @@
     font-size: smaller;
 }
 
-.line{
-    border-width:3px;
-    width:75% !important;
-}
-
 .drums-bg{
     background-color: black;
     background-image: url("../images/CounterfeitCoders_img3.jpg");
@@ -86,4 +101,169 @@
     height:100%;
     object-fit: cover;
     object-position: center;
+}
+
+.collage-height{
+    height:100%;
+}
+
+.ter-title{
+    font-family: "Bogart";
+    font-size: 5rem;
+    color:white;
+}
+@media only screen and (max-width : 992px) {
+    .ter-title{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+}
+.artist-details{
+    color:white;
+    font-size:x-large;
+}
+.artist-details p{
+    color:white;
+    font-size:large;
+}
+
+.line{
+    border-width:3px !important;
+    width:75% !important;
+}
+
+.line2{
+    border-width:3px !important;
+    width:100% !important;
+}
+
+.page4-bg{
+    background-color: #232323;
+    background-image: url("../images/CounterfeitCoder_img5.png");
+    background-size: cover;
+    color:white;
+}
+
+.quad-title{
+    font-family: "Bogart";
+    font-size: 5rem;
+    color:white;
+}
+
+.quad-title+p{
+    font-family: "Montserrat";
+    font-size: large;
+    color:white;
+}
+
+.moneybox{
+    background-color: white;
+    color: black;
+    height:100%;
+    box-sizing: border-box;
+    border: 10px solid transparent;
+    background-clip:padding-box;
+    padding:2%;
+    text-align: center;
+}
+
+.inner-line{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rounded-but{
+    background-color: rgb(63, 63, 63);
+    color:white;
+    border-radius: 30px;
+    width:45%;
+    margin:20px;
+    height:25%;
+    font-size: x-large;
+    font-weight: bold;
+    border:none;
+}
+
+.innerlargetext{
+    font-size: x-large;
+    margin: 0;
+    padding: 0;
+}
+
+.innerlargetext b{
+    font-size: xx-large;
+}
+
+.rounded-det{
+    display: block;
+    margin:15px;
+    padding:20px;
+    padding-left:40px !important;
+    width: 50% !important;
+    height:25%;
+    text-align: left;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-radius: 40px;
+}
+
+@media only screen and (max-width : 992px) {
+    .rounded-det{
+        font-size: normal;
+        width:40% !important;
+        height:70%;
+        margin:0;
+        padding:2px;
+    }
+}
+
+.finaltitle{
+    font-family: "Bogart";
+    font-size: 6.5rem;
+}
+@media only screen and (max-width : 992px) {
+    .finaltitle{
+        font-size: 4rem;
+    }
+}
+
+.contactimg{
+    height: 70%;
+    width:100%;
+    object-fit:cover;
+}
+
+.iconsz{
+    text-align: right;
+}
+.iconsz a{
+    text-decoration: none;
+    color:#232323;
+    margin-left:20px;
+    padding:10px;
+    border: 1.5px solid #000;
+    border-radius: 50%;
+    width: 58px;
+    height: 58px;
+    padding: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width : 992px) {
+    .iconsz{
+        text-align: center;
+    }
+    .iconsz a{
+        margin-left:0 !important;
+    }
+}
+
+
+.captiontext{
+    font-size: xx-large;
+    background-color: rgb(179, 179, 179);
+    padding:40px;
+    margin:0 !important;
+    font-weight: bold;
 }
