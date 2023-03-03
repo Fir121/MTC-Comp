@@ -146,13 +146,18 @@
 }
 
 .line{
-    border-width:3px !important;
+    height:1px;
     width:75% !important;
+    background-color: #dedcd7;
+    margin-bottom: 30px;
 }
 
 .line2{
-    border-width:3px !important;
+    height:1px;
     width:100% !important;
+    background-color: #dedcd7;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .page4-bg{
@@ -186,9 +191,13 @@
 }
 
 .inner-line{
-    width:90%;
+    width:85%;
     margin-left: auto;
     margin-right: auto;
+    height:1px;
+    background-color: #242222;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .rounded-but{
@@ -201,7 +210,14 @@
     font-size: x-large;
     font-weight: bold;
     border:none;
+    transition: 0.5s;
 }
+.rounded-but:hover{
+    background-color: #000000;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
 
 .innerlargetext{
     font-size: x-large;
@@ -224,6 +240,7 @@
     background-color: #242222;
     color: white;
     border-radius: 60px;
+    font-size: large;
 }
 
 @media only screen and (max-width : 992px) {
@@ -267,6 +284,7 @@
     height: 58px;
     padding: 10px;
     text-align: center;
+    transition:0.4s;
 }
 
 @media only screen and (max-width : 992px) {
@@ -278,6 +296,10 @@
     }
 }
 
+.iconsz a:hover{
+    background-color: #232323;
+    color:white;
+}
 
 .captiontext{
     font-size: xx-large;
@@ -290,7 +312,11 @@
 
 .oddtext{
     color:black;
-    text-align: right;
+    text-align: left;
     font-size: x-large;
     font-family: "DM Sans";
+}
+
+.sec-header{
+    font-size: x-large;
 }
